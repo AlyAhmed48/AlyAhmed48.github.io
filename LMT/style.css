@@ -101,6 +101,7 @@ section#body {
   outline: 0;
   width: 100%;
   padding: 20px;
+  direction: rtl;
   margin: 0 auto;
   background: #fff;
   border-radius: 24px;
@@ -108,7 +109,7 @@ section#body {
   transition: var(--main-transition);
 }
 #body main #input:hover {
-  box-shadow: -5px 5px 5px #3585c785;
+  box-shadow: 5px 5px 5px #3585c785;
 }
 #body main #btns {
   display: flex;
